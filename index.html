@@ -338,8 +338,8 @@
 							<div class="item-content hover-out" style="background-image:url(assets/img/portfolio/thumb1.jpg)"></div>
 							<div class="hover-in table-wrap">
 								<div class="align-middle">
-									<span class="category">web</span>
-									<h4>the traveller</h4>
+									<span class="category">Razer</span>
+									<h4>BlackWidow Chroma</h4>
 									<span class="serch-wrap">
 										<a class="gallery" href="assets/img/portfolio-big/lightbox1.jpg"><i class="fa fa-search"></i></a>
 									</span>
@@ -358,8 +358,8 @@
 							<div class="item-content hover-out" style="background-image:url(assets/img/portfolio/thumb2.jpg)"></div>
 							<div class="hover-in table-wrap">
 								<div class="align-middle">
-									<span class="category">branding</span>
-									<h4>Seamless seal</h4>
+									<span class="category">Corsair</span>
+									<h4>icue PXT Cooler</h4>
 									<span class="serch-wrap">
 										<a class="gallery" href="assets/img/portfolio-big/lightbox2.jpg"><i class="fa fa-search"></i></a>
 									</span>
@@ -378,8 +378,8 @@
 							<div class="item-content hover-out" style="background-image:url(assets/img/portfolio/thumb3.jpg)"></div>
 							<div class="hover-in table-wrap">
 								<div class="align-middle">
-									<span class="category">print</span>
-									<h4>the paper bag</h4>
+									<span class="category">SteelSeries</span>
+									<h4>Arctis Pro</h4>
 									<span class="serch-wrap">
 										<a class="gallery" href="assets/img/portfolio-big/lightbox3.jpg" ><i class="fa fa-search"></i></a>
 									</span>
@@ -398,8 +398,8 @@
 							<div class="item-content hover-out" style="background-image:url(assets/img/portfolio/thumb4.jpg)"></div>
 							<div class="hover-in table-wrap">
 								<div class="align-middle">
-									<span class="category">identity</span>
-									<h4>crafted ceramic</h4>
+									<span class="category">Victrix</span>
+									<h4>SFV SE Pro FS FightStick</h4>
 									<span class="serch-wrap">
 										<a class="gallery" href="assets/img/portfolio-big/lightbox4.jpg" ><i class="fa fa-search"></i></a>
 									</span>
@@ -418,8 +418,8 @@
 							<div class="item-content hover-out" style="background-image:url(assets/img/portfolio/thumb5.jpg)"></div>
 							<div class="hover-in table-wrap">
 								<div class="align-middle">
-									<span class="category">print</span>
-									<h4>riding t-shirt</h4>
+									<span class="category">Logitech</span>
+									<h4>G Pro</h4>
 									<span class="serch-wrap">
 										<a class="gallery" href="assets/img/portfolio-big/lightbox5.jpg" ><i class="fa fa-search"></i></a>
 									</span>
@@ -976,87 +976,7 @@
 </section>
 <!--/Blog Sec-->
 
-<!--Contact Sec-->
-<section id="contact"  class="contact-sec padding-sec-lg">
-	<div class="form-wrap container" data-ng-controller="ContactController" data-ng-app="contactApp">
-		<div class="row">
-			<div class="col-lg-6 center-div">
-				<h2>
-					hey <span  data-ng-bind="formData.inputName||'there'">there</span>
-				</h2>
-				<div class="seprator">
-					<span class="seprator-sm center-div"></span>
-					
-				</div>
-			</div>
-		</div>	
-		<div class="clearfix"></div>
-		<form data-ng-submit="submit(contactform, $event)"  name="contactform" method="post" class=" form-horizontal" role="form">
-			<div class="form-group col-lg-8 center-div" data-ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
-				<div class="input-wrap">
-					<input data-ng-model="formData.inputName" type="text" class="form-control input__field input input__field--hoshi" id="inputName" name="inputName" placeholder="Name" required>
-				</div>	
-			</div>
-			<div class="form-group  col-lg-8 center-div" data-ng-class="{ 'has-error': contactform.inputEmail.$invalid && submitted }">
-				<div class="input-wrap">
-					<input data-ng-model="formData.inputEmail" type="email" class="form-control input input__field input__field--hoshi" placeholder="Your Email" id="inputEmail" name="inputEmail" required>
-				</div>	
-			</div>
-			<div class="form-group  col-lg-8 center-div" data-ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
-				<div class="input-wrap">
-					<textarea data-ng-model="formData.inputMessage" class="form-control input input__field input__field--hoshi" rows="4" id="inputMessage" name="inputMessage" placeholder="message" required></textarea>
-				</div>	
-			</div>
-			<div class="form-group">
-				<div class="center-div">
-					<button  type="submit" class="btn btn-3 btn-3e icon-arrow-right" data-ng-disabled="submitButtonDisabled">send<i class="fa fa-angle-down"></i></button>
-				</div>
-			</div>
-		</form>
-		<p data-ng-class="result">{{ resultMessage }}</p>
-	</div>
-	<div class="address-sec padding-top-lg container">
-		<div class="row">
-			<div class="col-xs-4">
-				<div class="icon col-md-1 col-sm-2 col-xs-1"><i class="fa fa-envelope"></i></div>
-				<div class="col-md-11 col-sm-10 col-xs-11">
-					<span class="tag">email</span>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-lg-12">	
-					<a href="mailto:hello@Hencework.com" target="_blank">info@Sym.com</a>
-				</div>	
-			</div>
-			<div class="col-xs-4">
-				<div class="icon col-md-1 col-sm-2 col-xs-1"><i class="fa fa-phone"></i></div>
-				<div class="col-md-11 col-sm-10 col-xs-11">
-					<span class="tag">phone</span>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-lg-12">		
-					<a href="callto:954788315970" target="_blank">+95 (478) 831-5970</a>
-				</div>	
-			</div>
-			<div class="col-xs-4">
-				<div class="icon col-md-1 col-sm-2 col-xs-1"><i class="fa fa-map-marker"></i></div>
-				<div class="col-md-11 col-sm-10 col-xs-11">
-					<span class="tag">address</span>
-				</div>
-				<div class="clearfix"></div>
-				<div class="col-lg-12">
-					<p>350 Fifth Avenue, NY 10118 USA.</p>
-				</div>	
-			</div>
-		</div>	
-	</div>
-</section>
-<!--/Contact Sec-->
 
-<!--Map Sec-->
-<section class="map-sec">
-	<div id="map_canvas"></div>
-</section>
-<!--/Map Sec-->
 
 </div>
 <!--/Main Content-->
