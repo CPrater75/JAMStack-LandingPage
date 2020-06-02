@@ -254,7 +254,7 @@ h6 {
 	span {
 		display:block;
 		&.seprator-sm {
-			background: #ffdf2b none repeat scroll 0 0;
+			background: #fd8300 none repeat scroll 0 0;
 			display: block;
 			height: 5px;
 			width: 54px;
@@ -366,14 +366,14 @@ h6 {
 
 /* Button 3 */
 .btn-3 {
-	background: #ffea01;
+	background: #fd8300;
 	color: #272727;
 	margin-top: 50px;
 	&:hover {
-		background: #ffea01;
+		background: #fd8300;
 	}
 	&:active {
-		background: #ffea01;
+		background: #fd8300;
 	}
 	&:before {
 		position: absolute;
@@ -1350,7 +1350,7 @@ p {
 		list-style: none;
 		i {
 			padding-right:10px;
-			color:#ffea01;
+			color:#fd8300;
 		}
 		&.inactive {
 			i {
@@ -2204,7 +2204,7 @@ a.social-icon {
 	
 	}
 		.btn-3 {
-			background:#ffea01;
+			background:#fd8300;
 			color:#272727;
 			margin-top:50px;
 			&:hover {
